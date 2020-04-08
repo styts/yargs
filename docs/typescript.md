@@ -7,7 +7,7 @@ The following `.options()` definition:
 
 ```typescript
 #!/usr/bin/env node
-import yargs = require('yargs');
+const yargs = require('yargs');
 
 const argv = yargs.options({
   a: { type: 'boolean', default: false },
